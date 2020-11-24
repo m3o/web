@@ -4,8 +4,22 @@ description: "Signup to the M3O Platform"
 layout: default
 ---
 
-    <center><h3>M3O is a cloud platform for Micro services development</h3></center>
+    <center><h3>Download Micro and signup through the CLI to get started</h3></center>
     <div class="row">
-	{% include features-dev.html %}
-      </div>
+	<div class="col-md-6 offset-md-3">
+	<br>
+		<h5>Install via curl or download the latest <a href="https://github.com/micro/micro/releases/latest">release</a></h5>
+	<pre class="command">
+  curl -fsSL https://install.m3o.com/micro | /bin/bash</pre>
+		<h5>Set the environment</h5>
+		<pre class="command">
+  micro env set dev</pre>
+		<h5>Go through the signup</h5>
+		<pre class="command">
+  micro signup</pre>
+		<p>
+			Visit us on <a href="https://slack.m3o.com">Slack</a> if you need any help.
+			See the <a href="https://docs.m3o.com/getting-started">getting started</a> guide for more info.
+		</p>
+	</div>
     </div>

@@ -69,6 +69,9 @@
             padding-top: 0;
 	    margin-top: 0;
         }
+        body {
+          padding-top: 10px;
+        }
     }
     .center {
     text-align:center;

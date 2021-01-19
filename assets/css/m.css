@@ -8,6 +8,8 @@
     }
     body {
       padding-top: 50px;
+      max-width: 1600px;
+      margin: 0 auto;
     }
     h2 { color: #0c2e47; }
     a { color: #3B94D9; }

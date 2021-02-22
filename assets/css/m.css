@@ -43,8 +43,7 @@
     .footer { border-top: 1px solid #eee; padding: 50px 0 25px 0; }
     .footer ul { margin: 0; }
     .main {
-      min-height: calc(100% - 150px);
-      min-height: calc(100vh - 150px);
+      height: 750px;
       max-width: 1220px;
       margin: 0 auto;
       padding-top: 4%;

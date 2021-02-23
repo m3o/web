@@ -52,8 +52,7 @@
       margin-top: 20px;
     }
     .landing {
-      min-height: 0;
-      height: 600px;
+      min-height: 600px;
     }
       .command {
         padding: 1em;
